@@ -12,16 +12,16 @@ defineProps({
         </div>
         <div class="px-2 py-4">
           <div class="py-2">
-            <h3>
+            <h3 class="text-gray-600">
               {{article.author}}
             </h3>
           </div>
           <div class="pb-2">
-            <h2 class="font-bold text-xl">
+            <h2 class="font-bold text-xl hover:text-emerald-500 cursor-pointer">
               {{article.title}}
             </h2>
           </div>
-          <p>
+          <p class="text-gray-600">
             {{article.description}}
           </p>
         </div>
