@@ -18,23 +18,33 @@
         <div class="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-24 text-center md:text-left">
 
           <ul class="space-y-3 text-lg">
-            <li><a href="#" class="hover:text-emerald-300 transition">About Us</a></li>
-            <li><a href="#" class="hover:text-emerald-300 transition">Contact</a></li>
-            <li><a href="#" class="hover:text-emerald-300 transition">Blog</a></li>
+            <li><a href="#" class="hover:text-emerald-500 transition">About Us</a></li>
+            <li><a href="#" class="hover:text-emerald-500 transition">Contact</a></li>
+            <li><a href="#" class="hover:text-emerald-500 transition">Blog</a></li>
           </ul>
 
           <ul class="space-y-3 text-lg">
-            <li><a href="#" class="hover:text-emerald-300 transition">Careers</a></li>
-            <li><a href="#" class="hover:text-emerald-300 transition">Support</a></li>
-            <li><a href="#" class="hover:text-emerald-300 transition">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-emerald-500 transition">Careers</a></li>
+            <li><a href="#" class="hover:text-emerald-500 transition">Support</a></li>
+            <li><a href="#" class="hover:text-emerald-500 transition">Privacy Policy</a></li>
           </ul>
 
         </div>
       </div>
 
       <div class="flex flex-col items-center md:items-end space-y-4 text-center md:text-right">
-        <a href="#" class="bg-emerald-300 py-2 px-8 rounded-4xl inline-block">Request Invite</a>
-        <p class="text-sm">© Digitalbank. All Rights Reserved</p>
+        <a href="#"
+           class="relative overflow-hidden
+          bg-linear-to-bl from-green-500 to-cyan-500
+          py-3 px-7 rounded-4xl inline-block
+          before:content-[''] before:absolute before:inset-0
+          before:bg-transparent
+          before:transition-all before:duration-200
+          hover:before:bg-gray-50/40">
+          Request Invite
+        </a>
+
+        <p class="text-sm text-gray-600">© Digitalbank. All Rights Reserved</p>
       </div>
 
     </div>
