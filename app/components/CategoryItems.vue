@@ -10,6 +10,6 @@
         <img :src="category.image" alt="">
       </div>
       <h3 class="py-8">{{category.title}}</h3>
-      <p>{{category.description}}</p>
+      <p class="text-gray-600">{{category.description}}</p>
     </div>
 </template>

@@ -28,7 +28,7 @@ const categories = [
 </script>
 
 <template>
-    <div class="px-8 py-6 md:px-[8rem] md:py-[5rem] bg-gray-200 text-center md:text-left">
+    <div class="px-8 py-6 md:px-[8rem] md:py-[5rem] bg-gray-100 text-center md:text-left">
       <h2 class="text-4xl pb-[3rem]">Why choose Digitalbank?</h2>
       <p class="max-w-[40rem] mb-[5rem]">We leverage Open Banking to turn your bank account into your financial hub. Control
         your finances like never before.
