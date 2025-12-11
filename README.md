@@ -1,75 +1,15 @@
-# Nuxt Minimal Starter
+# Frontend Mentor - Loopstudios Landing Page
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![Design preview for the Loopstudios landing page coding challenge](preview.jpg)
 
-## Setup
+## Links
 
-Make sure to install dependencies:
+- **Solution URL**: [Digital bank landing page on Frontend Mentor](https://digitalbank-landing-page-m.netlify.app/)
+- **Live Site URL**: [Digital bank landing page live Demo](https://digitalbank-landing-page-m.netlify.app/)
 
-```bash
-# npm
-npm install
+## Built With
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- [Vue.js](https://vuejs.org/) – JavaScript framework
+- [Nuxt.js](https://nuxt.com/) – Vue framework for server-side rendering and static sites
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+- [Netlify](https://www.netlify.com/) - for deployment
